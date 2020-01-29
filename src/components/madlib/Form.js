@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Form = ({ onChange, onSubmit }) => (
+const Form = ({ onSubmit, onChange  }) => (
   <form onSubmit={onSubmit}>
     <input type="text" placeholder="adjective" id={0} onChange={onChange} />
     <input type="text" placeholder="noun" id={1} onChange={onChange} />
@@ -16,6 +16,7 @@ const Form = ({ onChange, onSubmit }) => (
     <input type="text" placeholder="verb, past tense" id={10} onChange={onChange}/>
     <input type="text" placeholder="adjective" id={11} onChange={onChange}/>
     <button>Create Madlib</button>
+    <button type='reset' value='Clear Entries'>Clear Entries</button>
   </form>
 );
 
