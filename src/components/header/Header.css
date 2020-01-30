@@ -1,0 +1,9 @@
+.Header {
+    background-color: red;
+    h1 {
+        color: darkgray;
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+}
