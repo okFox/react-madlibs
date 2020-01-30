@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <header className={styles.Header}>
-
+        <h1>Madlibs for Reactionaries</h1>
       </header>
     );
   }
